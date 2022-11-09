@@ -22,7 +22,7 @@ class WebScrapper
         $node = $crawler->filter('html body#page-pokedex-_pokemon.isOther div#flexContent div#main.container div.row div#contentWrapper.col-md-9 div#content section.well div#pokedexEntry.panel-group div.panel.panel-default div#infos.panel-collapse.collapse.in.active div.panel-body div.row div.col-md-6 div.panel.panel-default div.panel-body dl.dl-horizontal dd ul.list-unstyled li a')->last();
         return $node->text();
     }
-    private function idWithZerosIfNeeded(int $id)
+    private function idWithZerosIfNeeded(int $id) : String
     {   $stringId = strval($id);
         if(strlen($stringId) === 3) {
             return $stringId;

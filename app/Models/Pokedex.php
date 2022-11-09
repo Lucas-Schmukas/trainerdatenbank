@@ -3,6 +3,7 @@
 namespace App\Models;
 
 
+use App\Services\WebScrapper;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -15,6 +16,12 @@ class Pokedex extends Model
 {
     use HasFactory;
 
+    protected $table = 'pokedex';
+
+    protected $fillable = ['faehigkeit'];
+
+    public $timestamps = false;
+
     public function index() : Collection
     {
         return Pokedex::all();
@@ -26,31 +33,36 @@ class Pokedex extends Model
             ->first()
             ->name;
     }
+    static public function getSkillById(int $id) : String
+    {
+        $pokemon = Pokedex::where('id', $id)
+            ->first();
+        if($pokemon->faehigkeit === null){
+            $scrapper = new WebScrapper();
+            $pokemon->faehigkeit = $scrapper->getSkillById($pokemon->id);
+            $pokemon->save();
+        }
+        return $pokemon->faehigkeit;
+    }
 
-    static public function getTypeBySpezies(String $spezies) : array
+    static public function getTypesBySpezies(String $spezies) : array
     {
-        $id = self::getIdBySpezies($spezies);
-        return self::getPokemonTypeById($id);
-    }
-    static public function getIdBySpezies(String $spezies) : String
-    {
-        return Pokedex::where('name', $spezies)
+        $types = Pokedex::where('name', $spezies)
             ->first()
-            ->id;
-    }
-    static public function getPokemonTypeById(int $id) : array
-    {
-        $types = Pokedex::where('id', $id)->first()->type;
+            ->typ;
         return self::splitType($types);
     }
-    private function splitType(String $typ) : array
+    private static function splitType(String $typ) : array
     {
         return explode(' ', $typ);
     }
 
-    private function cleanType(String $type) : String
+    public static function fillSkills()
     {
-        return substr($type, 0, strpos($type, "["));
+        $scrapper = new WebScrapper();
+        foreach (Pokedex::all() as $pokemon) {
+            $pokemon->faehigkeit = $scrapper->getSkillById($pokemon->id);
+            $pokemon->save();
+        }
     }
-
 }

@@ -15,7 +15,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(WebScrapper::class, function () {
+        $this->app->bind(WebScrapper::class, function () {
             return new WebScrapper();
         });
     }

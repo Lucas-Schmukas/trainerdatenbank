@@ -26,7 +26,8 @@ class PokemonFactory extends Factory
         return [
             'spitzname' => fake()->jobTitle(),
             'geschlecht' => fake()->randomElement(['m', 'w']),
-            'spezies' => Pokedex::getNameById(fake()->numberBetween(1, 151)),
+            'spezies' => Pokedex::getNameById( $pokeId = fake()->numberBetween(1, 151)),
+            'faehigkeit' => Pokedex::getSkillById($pokeId),
             'pokeball' => fake()->randomElement(config('pokeball')),
             'gewicht' => $gewicht = fake()->numberBetween(50, 500), // in kg
             'groesse' => $gewicht + fake()->numberBetween(-10, 50) // in cm
@@ -36,8 +37,7 @@ class PokemonFactory extends Factory
     {
 
         return $this->afterCreating(function(Pokemon $pokemon){
-            $pokemon->getSkillFromApi();
-            $types = Pokedex::getTypeBySpezies($pokemon->spezies);
+            $types = Pokedex::getTypesBySpezies($pokemon->spezies);
             foreach($types as $type){
                 $typeId = Typ::getTypeIdByDescription($type);
                 DB::table('gehoertAn')->insert([

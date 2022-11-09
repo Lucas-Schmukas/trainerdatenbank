@@ -11,6 +11,10 @@ class Typ extends Model
 {
     use HasFactory;
 
+    protected $table = 'typ';
+
+    public $timestamps = false;
+
     public function index() : Collection
     {
         return Typ::all();
@@ -18,9 +22,10 @@ class Typ extends Model
 
     static public function getTypeIdByDescription(String $typeDescription) : int
     {
-       $type = Typ::where('bezeichnung', $typeDescription)
-           ->first();
-        return $type->id;
+       $typeId = Typ::where('bezeichnung', $typeDescription)
+           ->first()
+           ->typid;
+        return $typeId;
     }
     public function pokemon()
     {

@@ -2,6 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Pokedex;
+use App\Models\Pokemon;
+use App\Models\Trainer;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -14,9 +17,9 @@ class TrainerSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\Trainer::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+         Trainer::factory()
+             ->count(997)
+             ->has(Pokemon::factory()->count(rand(1, 6)))
+             ->create();
     }
 }

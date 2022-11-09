@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Wettkampf;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -14,6 +15,8 @@ class WettkampfSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Wettkampf::factory()
+            ->count(5000)
+            ->create();
     }
 }
