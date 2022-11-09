@@ -1,0 +1,19 @@
+
+Normal   Kampf
+Kampf   Normal, Eis, Gestein, Unlicht, Stahl	Flug, Psycho, Fee
+Flug    Pflanze, Kampf, Käfer  	Elektro, Eis, Gestein
+Gift    Pflanze, Fee	Boden, Psycho
+Boden   Feuer, Elektro, Gift, Gestein, Stahl	Wasser, Pflanze, Eis
+Gestein Feuer, Eis, Flug, Käfer	Wasser, Pflanze, Kampf, Boden, Stahl
+Käfer   Pflanze, Psycho, Unlicht	Feuer, Flug, Gestein
+Geist	Psycho, Geist	Geist, Unlicht
+Stahl	Eis, Gestein, Fee	Feuer, Kampf, Boden
+Feuer	Pflanze, Eis, Käfer, Stahl	Wasser, Boden, Gestein
+Wasser	Feuer, Boden, Gestein	Pflanze, Elektro
+Pflanze	Wasser, Boden, Gestein	Feuer, Eis, Gift, Flug, Käfer
+Elektro	Wasser, Flug	Boden
+Psycho	Kampf, Gift	Käfer, Geist, Unlicht
+Eis	    Pflanze, Boden, Flug, Drache	Feuer, Gestein, Kampf, Stahl
+Drache	Drache	Eis, Drache, Fee
+Unlicht	Psycho, Geist	Kampf, Käfer, Fee
+Fee	    Kampf, Drache, Unlicht	Gift, Stahl

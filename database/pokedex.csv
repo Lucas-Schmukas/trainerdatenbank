@@ -1,0 +1,890 @@
+1, Bisasam ,Pflanze Gift
+2, Bisaknosp ,Pflanze Gift
+3, Bisaflor ,Pflanze Gift
+4, Glumanda ,Feuer
+5, Glutexo ,Feuer
+6, Glurak ,Feuer Flug
+7, Schiggy ,Wasser
+8, Schillok ,Wasser
+9, Turtok ,Wasser
+10, Raupy ,Kaefer
+11, Safcon ,Kaefer
+12, Smettbo ,Kaefer Flug
+13, Hornliu ,Kaefer Gift
+14, Kokuna ,Kaefer Gift
+15, Bibor ,Kaefer Gift
+16, Taubsi ,Normal Flug
+17, Tauboga ,Normal Flug
+18, Tauboss ,Normal Flug
+19, Rattfratz ,Normal
+20, Rattikarl ,Normal
+21, Habitak ,Normal Flug
+22, Ibitak ,Normal Flug
+23, Rettan ,Gift
+24, Arbok ,Gift
+25, Pikachu ,Elektro
+26, Raichu ,Elektro
+27, Sandan ,Boden
+28, Sandamer ,Boden
+29, Nidoran♀ ,Gift
+30, Nidorina ,Gift
+31, Nidoqueen ,Gift Boden
+32, Nidoran♂ ,Gift
+33, Nidorino ,Gift
+34, Nidoking ,Gift Boden
+35, Piepi ,Fee
+36, Pixi ,Fee
+37, Vulpix ,Feuer
+38, Vulnona ,Feuer
+39, Pummeluff ,Normal Fee
+40, Knuddeluff ,Normal Fee
+41, Zubat ,Gift Flug
+42, Golbat ,Gift Flug
+43, Myrapla ,Pflanze Gift
+44, Duflor ,Pflanze Gift
+45, Giflor ,Pflanze Gift
+46, Paras ,Kaefer Pflanze
+47, Parasek ,Kaefer Pflanze
+48, Bluzuk ,Kaefer Gift
+49, Omot ,Kaefer Gift
+50, Digda ,Boden
+51, Digdri ,Boden
+52, Mauzi ,Normal
+53, Snobilikat ,Normal
+54, Enton ,Wasser
+55, Entoron ,Wasser
+56, Menki ,Kampf
+57, Rasaff ,Kampf
+58, Fukano ,Feuer
+59, Arkani ,Feuer
+60, Quapsel ,Wasser
+61, Quaputzi ,Wasser
+62, Quappo ,Wasser Kampf
+63, Abra ,Psycho
+64, Kadabra ,Psycho
+65, Simsala ,Psycho
+66, Machollo ,Kampf
+67, Maschock ,Kampf
+68, Machomei ,Kampf
+69, Knofensa ,Pflanze Gift
+70, Ultrigaria ,Pflanze Gift
+71, Sarzenia ,Pflanze Gift
+72, Tentacha ,Wasser Gift
+73, Tentoxa ,Wasser Gift
+74, Kleinstein ,Gestein Boden
+75, Georok ,Gestein Boden
+76, Geowaz ,Gestein Boden
+77, Ponita ,Feuer
+78, Gallopa ,Feuer
+79, Flegmon ,Wasser Psycho
+80, Lahmus ,Wasser Psycho
+81, Magnetilo ,Elektro Stahl
+82, Magneton ,Elektro Stahl
+83, Porenta ,Normal Flug
+84, Dodu ,Normal Flug
+85, Dodri ,Normal Flug
+86, Jurob ,Wasser
+87, Jugong ,Wasser Eis
+88, Sleima ,Gift
+89, Sleimok ,Gift
+90, Muschas ,Wasser
+91, Austos ,Wasser Eis
+92, Nebulak ,Geist Gift
+93, Alpollo ,Geist Gift
+94, Gengar ,Geist Gift
+95, Onix ,Gestein Boden
+96, Traumato ,Psycho
+97, Hypno ,Psycho
+98, Krabby ,Wasser
+99, Kingler ,Wasser
+100, Voltobal ,Elektro
+101, Lektrobal ,Elektro
+102, Owei ,Pflanze Psycho
+103, Kokowei ,Pflanze Psycho
+104, Tragosso ,Boden
+105, Knogga ,Boden
+106, Kicklee ,Kampf
+107, Nockchan ,Kampf
+108, Schlurp ,Normal
+109, Smogon ,Gift
+110, Smogmog ,Gift
+111, Rihorn ,Boden Gestein
+112, Rizeros ,Boden Gestein
+113, Chaneira ,Normal
+114, Tangela ,Pflanze
+115, Kangama ,Normal
+116, Seeper ,Wasser
+117, Seemon ,Wasser
+118, Goldini ,Wasser
+119, Golking ,Wasser
+120, Sterndu ,Wasser
+121, Starmie ,Wasser Psycho
+122, Pantimos ,Psycho Fee
+123, Sichlor ,Kaefer Flug
+124, Rossana ,Eis Psycho
+125, Elektek ,Elektro
+126, Magmar ,Feuer
+127, Pinsir ,Kaefer
+128, Tauros ,Normal
+129, Karpador ,Wasser
+130, Garados ,Wasser Flug
+131, Lapras ,Wasser Eis
+132, Ditto ,Normal
+133, Evoli ,Normal
+134, Aquana ,Wasser
+135, Blitza ,Elektro
+136, Flamara ,Feuer
+137, Porygon ,Normal
+138, Amonitas ,Gestein Wasser
+139, Amoroso ,Gestein Wasser
+140, Kabuto ,Gestein Wasser
+141, Kabutops ,Gestein Wasser
+142, Aerodactyl ,Gestein Flug
+143, Relaxo ,Normal
+144, Arktos ,Eis Flug
+145, Zapdos ,Elektro Flug
+146, Lavados ,Feuer Flug
+147, Dratini ,Drache
+148, Dragonir ,Drache
+149, Dragoran ,Drache Flug
+150, Mewtu ,Psycho
+151, Mew ,Psycho
+152, Endivie ,Pflanze
+153, Lorblatt ,Pflanze
+154, Meganie ,Pflanze
+155, Feurigel ,Feuer
+156, Igelavar ,Feuer
+157, Tornupto ,Feuer
+158, Karnimani ,Wasser
+159, Tyracroc ,Wasser
+160, Impergator ,Wasser
+161, Wiesor ,Normal
+162, Wiesenior ,Normal
+163, Hoothoot ,Normal Flug
+164, Noctuh ,Normal Flug
+165, Ledyba ,Kaefer Flug
+166, Ledian ,Kaefer Flug
+167, Webarak ,Kaefer Gift
+168, Ariados ,Kaefer Gift
+169, Iksbat ,Gift Flug
+170, Lampi ,Wasser Elektro
+171, Lanturn ,Wasser Elektro
+172, Pichu ,Elektro
+173, Pii ,Fee
+174, Fluffeluff ,Normal Fee
+175, Togepi ,Fee
+176, Togetic ,Fee Flug
+177, Natu ,Psycho Flug
+178, Xatu ,Psycho Flug
+179, Voltilamm ,Elektro
+180, Waaty ,Elektro
+181, Ampharos ,Elektro
+182, Blubella ,Pflanze
+183, Marill ,Wasser Fee
+184, Azumarill ,Wasser Fee
+185, Mogelbaum ,Gestein
+186, Quaxo ,Wasser
+187, Hoppspross ,Pflanze Flug
+188, Hubelupf ,Pflanze Flug
+189, Papungha ,Pflanze Flug
+190, Griffel ,Normal
+191, Sonnkern ,Pflanze
+192, Sonnflora ,Pflanze
+193, Yanma ,Kaefer Flug
+194, Felino ,Wasser Boden
+195, Morlord ,Wasser Boden
+196, Psiana ,Psycho
+197, Nachtara ,Unlicht
+198, Kramurx ,Unlicht Flug
+199, Laschoking ,Wasser Psycho
+200, Traunfugil ,Geist
+201, Icognito ,Psycho
+202, Woingenau ,Psycho
+203, Girafarig ,Normal Psycho
+204, Tannza ,Kaefer
+205, Forstellka ,Kaefer Stahl
+206, Dummisel ,Normal
+207, Skorgla ,Boden Flug
+208, Stahlos ,Boden Stahl
+209, Snubbull ,Fee
+210, Granbull ,Fee
+211, Baldorfish ,Wasser Gift
+212, Scherox ,Kaefer Stahl
+213, Pottrott ,Kaefer Gestein
+214, Skaraborn ,Kaefer Kampf
+215, Sniebel ,Unlicht Eis
+216, Teddiursa ,Normal
+217, Ursaring ,Normal
+218, Schneckmag ,Feuer
+219, Magcargo ,Feuer Gestein
+220, Quiekel ,Eis Boden
+221, Keifel ,Eis Boden
+222, Corasonn ,Wasser Gestein
+223, Remoraid ,Wasser
+224, Octillery ,Wasser
+225, Botogel ,Eis Flug
+226, Mantax ,Wasser Flug
+227, Panzaeron ,Stahl Flug
+228, Hunduster ,Unlicht Feuer
+229, Hundemon ,Unlicht Feuer
+230, Seedraking ,Wasser Drache
+231, Phanpy ,Boden
+232, Donphan ,Boden
+233, Porygon2 ,Normal
+234, Damhirplex ,Normal
+235, Farbeagle ,Normal
+236, Rabauz ,Kampf
+237, Kapoera ,Kampf
+238, Kussilla ,Eis Psycho
+239, Elekid ,Elektro
+240, Magby ,Feuer
+241, Miltank ,Normal
+242, Heiteira ,Normal
+243, Raikou ,Elektro
+244, Entei ,Feuer
+245, Suicune ,Wasser
+246, Larvitar ,Gestein Boden
+247, Pupitar ,Gestein Boden
+248, Despotar ,Gestein Unlicht
+249, Lugia ,Psycho Flug
+250, Ho-Oh ,Feuer Flug
+251, Celebi ,Pflanze Psycho
+252, Geckarbor ,Pflanze
+253, Reptain ,Pflanze
+254, Gewaldro ,Pflanze
+255, Flemmli ,Feuer
+256, Jungglut ,Feuer Kampf
+257, Lohgock ,Feuer Kampf
+258, Hydropi ,Wasser
+259, Moorabbel ,Wasser Boden
+260, Sumpex ,Wasser Boden
+261, Fiffyen ,Unlicht
+262, Magnayen ,Unlicht
+263, Zigzachs ,Normal
+264, Geradaks ,Normal
+265, Waumpel ,Kaefer
+266, Schaloko ,Kaefer
+267, Papinella ,Kaefer Flug
+268, Panekon ,Kaefer
+269, Pudox ,Kaefer Gift
+270, Loturzel ,Wasser Pflanze
+271, Lombrero ,Wasser Pflanze
+272, Kappalores ,Wasser Pflanze
+273, Samurzel ,Pflanze
+274, Blanas ,Pflanze Unlicht
+275, Tengulist ,Pflanze Unlicht
+276, Schwalbini ,Normal Flug
+277, Schwalboss ,Normal Flug
+278, Wingull ,Wasser Flug
+279, Pelipper ,Wasser Flug
+280, Trasla ,Psycho Fee
+281, Kirlia ,Psycho Fee
+282, Guardevoir ,Psycho Fee
+283, Gehweiher ,Kaefer Wasser
+284, Maskeregen ,Kaefer Flug
+285, Knilz ,Pflanze
+286, Kapilz ,Pflanze Kampf
+287, Bummelz ,Normal
+288, Muntier ,Normal
+289, Letarking ,Normal
+290, Nincada ,Kaefer Boden
+291, Ninjask ,Kaefer Flug
+292, Ninjatom ,Kaefer Geist
+293, Flurmel ,Normal
+294, Krakeelo ,Normal
+295, Krawumms ,Normal
+296, Makuhita ,Kampf
+297, Hariyama ,Kampf
+298, Azurill ,Normal Fee
+299, Nasgnet ,Gestein
+300, Eneco ,Normal
+301, Enekoro ,Normal
+302, Zobiris ,Unlicht Geist
+303, Flunkifer ,Stahl Fee
+304, Stollunior ,Stahl Gestein
+305, Stollrak ,Stahl Gestein
+306, Stolloss ,Stahl Gestein
+307, Meditie ,Kampf Psycho
+308, Meditalis ,Kampf Psycho
+309, Frizelbliz ,Elektro
+310, Voltenso ,Elektro
+311, Plusle ,Elektro
+312, Minun ,Elektro
+313, Volbeat ,Kaefer
+314, Illumise ,Kaefer
+315, Roselia ,Pflanze Gift
+316, Schluppuck ,Gift
+317, Schlukwech ,Gift
+318, Kanivanha ,Wasser Unlicht
+319, Tohaido ,Wasser Unlicht
+320, Wailmer ,Wasser
+321, Wailord ,Wasser
+322, Camaub ,Feuer Boden
+323, Camerupt ,Feuer Boden
+324, Qurtel ,Feuer
+325, Spoink ,Psycho
+326, Groink ,Psycho
+327, Pandir ,Normal
+328, Knacklion ,Boden
+329, Vibrava ,Boden Drache
+330, Libelldra ,Boden Drache
+331, Tuska ,Pflanze
+332, Noktuska ,Pflanze Unlicht
+333, Wablu ,Normal Flug
+334, Altaria ,Drache Flug
+335, Sengo ,Normal
+336, Vipitis ,Gift
+337, Lunastein ,Gestein Psycho
+338, Sonnfel ,Gestein Psycho
+339, Schmerbe ,Boden Wasser
+340, Welsar ,Boden Wasser
+341, Krebscorps ,Wasser
+342, Krebutack ,Wasser Unlicht
+343, Puppance ,Boden Psycho
+344, Lepumentas ,Boden Psycho
+345, Liliep ,Gestein Pflanze
+346, Wielie ,Gestein Pflanze
+347, Anorith ,Gestein Kaefer
+348, Armaldo ,Gestein Kaefer
+349, Barschwa ,Wasser
+350, Milotic ,Wasser
+351, Formeo ,Normal
+352, Kecleon ,Normal
+353, Shuppet ,Geist
+354, Banette ,Geist
+355, Zwirrlicht ,Geist
+356, Zwirrklop ,Geist
+357, Tropius ,Pflanze Flug
+358, Palimpalim ,Psycho
+359, Absol ,Unlicht
+360, Isso ,Psycho
+361, Schneppke ,Eis
+362, Firnontor ,Eis
+363, Seemops ,Eis Wasser
+364, Seejong ,Eis Wasser
+365, Walraisa ,Eis Wasser
+366, Perlu ,Wasser
+367, Aalabyss ,Wasser
+368, Saganabyss ,Wasser
+369, Relicanth ,Wasser Gestein
+370, Liebiskus ,Wasser
+371, Kindwurm ,Drache
+372, Draschel ,Drache
+373, Brutalanda ,Drache Flug
+374, Tanhel ,Stahl Psycho
+375, Metang ,Stahl Psycho
+376, Metagross ,Stahl Psycho
+377, Regirock ,Gestein
+378, Regice ,Eis
+379, Registeel ,Stahl
+380, Latias ,Drache Psycho
+381, Latios ,Drache Psycho
+382, Kyogre ,Wasser
+383, Groudon ,Boden
+384, Rayquaza ,Drache Flug
+385, Jirachi ,Stahl Psycho
+386, Deoxys ,Psycho
+387, Chelast ,Pflanze
+388, Chelcarain ,Pflanze
+389, Chelterrar ,Pflanze Boden
+390, Panflam ,Feuer
+391, Panpyro ,Feuer Kampf
+392, Panferno ,Feuer Kampf
+393, Plinfa ,Wasser
+394, Pliprin ,Wasser
+395, Impoleon ,Wasser Stahl
+396, Staralili ,Normal Flug
+397, Staravia ,Normal Flug
+398, Staraptor ,Normal Flug
+399, Bidiza ,Normal
+400, Bidifas ,Normal Wasser
+401, Zirpurze ,Kaefer
+402, Zirpeise ,Kaefer
+403, Sheinux ,Elektro
+404, Luxio ,Elektro
+405, Luxtra ,Elektro
+406, Knospi ,Pflanze Gift
+407, Roserade ,Pflanze Gift
+408, Koknodon ,Gestein
+409, Rameidon ,Gestein
+410, Schilterus ,Gestein Stahl
+411, Bollterus ,Gestein Stahl
+412, Burmy ,Kaefer
+413, Burmadame ,Kaefer Pflanze
+414, Moterpel ,Kaefer Flug
+415, Wadribie ,Kaefer Flug
+416, Honweisel ,Kaefer Flug
+417, Pachirisu ,Elektro
+418, Bamelin ,Wasser
+419, Bojelin ,Wasser
+420, Kikugi ,Pflanze
+421, Kinoso ,Pflanze
+422, Schalellos ,Wasser
+423, Gastrodon ,Wasser Boden
+424, Ambidiffel ,Normal
+425, Driftlon ,Geist Flug
+426, Drifzepeli ,Geist Flug
+427, Haspiror ,Normal
+428, Schlapor ,Normal
+429, Traunmagil ,Geist
+430, Kramshef ,Unlicht Flug
+431, Charmian ,Normal
+432, Shnurgarst ,Normal
+433, Klingplim ,Psycho
+434, Skunkapuh ,Gift Unlicht
+435, Skuntank ,Gift Unlicht
+436, Bronzel ,Stahl Psycho
+437, Bronzong ,Stahl Psycho
+438, Mobai ,Gestein
+439, Pantimimi ,Psycho
+440, Wonneira ,Normal
+441, Plaudagei ,Normal Flug
+442, Kryppuk ,Geist Unlicht
+443, Kaumalat ,Drache Boden
+444, Knarksel ,Drache Boden
+445, Knakrack ,Drache Boden
+446, Mampfaxo ,Normal
+447, Riolu ,Kampf
+448, Lucario ,Kampf Stahl
+449, Hippopotas ,Boden
+450, Hippoterus ,Boden
+451, Pionskora ,Gift Kaefer
+452, Piondragi ,Gift Unlicht
+453, Glibunkel ,Gift Kampf
+454, Toxiquak ,Gift Kampf
+455, Venuflibis ,Pflanze
+456, Finneon ,Wasser
+457, Lumineon ,Wasser
+458, Mantirps ,Wasser Flug
+459, Shnebedeck ,Pflanze Eis
+460, Rexblisar ,Pflanze Eis
+461, Snibunna ,Unlicht Eis
+462, Magnezone ,Elektro Stahl
+463, Schlurplek ,Normal
+464, Rihornior ,Boden Gestein
+465, Tangoloss ,Pflanze
+466, Elevoltek ,Elektro
+467, Magbrant ,Feuer
+468, Togekiss ,Fee Flug
+469, Yanmega ,Kaefer Flug
+470, Folipurba ,Pflanze
+471, Glaziola ,Eis
+472, Skorgro ,Boden Flug
+473, Mamutel ,Eis Boden
+474, Porygon-Z ,Normal
+475, Galagladi ,Psycho Kampf
+476, Voluminas ,Gestein Stahl
+477, Zwirrfinst ,Geist
+478, Frosdedje ,Eis Geist
+479, Rotom ,Elektro Geist
+480, Selfe ,Psycho
+481, Vesprit ,Psycho
+482, Tobutz ,Psycho
+483, Dialga ,Stahl Drache
+484, Palkia ,Wasser Drache
+485, Heatran ,Feuer Stahl
+486, Regigigas ,Normal
+487, Giratina ,Geist Drache
+488, Cresselia ,Psycho
+489, Phione ,Wasser
+490, Manaphy ,Wasser
+491, Darkrai ,Unlicht
+492, Shaymin ,Pflanze
+493, Arceus ,Normal
+494, Victini ,Psycho Feuer
+495, Serpifeu ,Pflanze
+496, Efoserp ,Pflanze
+497, Serpiroyal ,Pflanze
+498, Floink ,Feuer
+499, Ferkokel ,Feuer Kampf
+500, Flambirex ,Feuer Kampf
+501, Ottaro ,Wasser
+502, Zwottronin ,Wasser
+503, Admurai ,Wasser
+504, Nagelotz ,Normal
+505, Kukmarda ,Normal
+506, Yorkleff ,Normal
+507, Terribark ,Normal
+508, Bissbark ,Normal
+509, Felilou ,Unlicht
+510, Kleoparda ,Unlicht
+511, Vegimak ,Pflanze
+512, Vegichita ,Pflanze
+513, Grillmak ,Feuer
+514, Grillchita ,Feuer
+515, Sodamak ,Wasser
+516, Sodachita ,Wasser
+517, Somniam ,Psycho
+518, Somnivora ,Psycho
+519, Dusselgurr ,Normal Flug
+520, Navitaub ,Normal Flug
+521, Fasasnob ,Normal Flug
+522, Elezeba ,Elektro
+523, Zebritz ,Elektro
+524, Kiesling ,Gestein
+525, Sedimantur ,Gestein
+526, Brockoloss ,Gestein
+527, Fleknoil ,Psycho Flug
+528, Fletiamo ,Psycho Flug
+529, Rotomurf ,Boden
+530, Stalobor ,Boden Stahl
+531, Ohrdoch ,Normal
+532, Praktibalk ,Kampf
+533, Strepoli ,Kampf
+534, Meistagrif ,Kampf
+535, Schallquap ,Wasser
+536, Mebrana ,Wasser Boden
+537, Branawarz ,Wasser Boden
+538, Jiutesto ,Kampf
+539, Karadonis ,Kampf
+540, Strawickl ,Kaefer Pflanze
+541, Folikon ,Kaefer Pflanze
+542, Matrifol ,Kaefer Pflanze
+543, Toxiped ,Kaefer Gift
+544, Rollum ,Kaefer Gift
+545, Cerapendra ,Kaefer Gift
+546, Waumboll ,Pflanze Fee
+547, Elfun ,Pflanze Fee
+548, Lilminip ,Pflanze
+549, Dressella ,Pflanze
+550, Barschuft ,Wasser
+551, Ganovil ,Boden Unlicht
+552, Rokkaiman ,Boden Unlicht
+553, Rabigator ,Boden Unlicht
+554, Flampion ,Feuer
+555, Flampivian ,Feuer
+556, Maracamba ,Pflanze
+557, Lithomith ,Kaefer Gestein
+558, Castellith ,Kaefer Gestein
+559, Zurrokex ,Unlicht Kampf
+560, Irokex ,Unlicht Kampf
+561, Symvolara ,Psycho Flug
+562, Makabaja ,Geist
+563, Echnatoll ,Geist
+564, Galapaflos ,Wasser Gestein
+565, Karippas ,Wasser Gestein
+566, Flapteryx ,Gestein Flug
+567, Aeropteryx ,Gestein Flug
+568, Unratütox ,Gift
+569, Deponitox ,Gift
+570, Zorua ,Unlicht
+571, Zoroark ,Unlicht
+572, Picochilla ,Normal
+573, Chillabell ,Normal
+574, Mollimorba ,Psycho
+575, Hypnomorba ,Psycho
+576, Morbitesse ,Psycho
+577, Monozyto ,Psycho
+578, Mitodos ,Psycho
+579, Zytomega ,Psycho
+580, Piccolente ,Wasser Flug
+581, Swaroness ,Wasser Flug
+582, Gelatini ,Eis
+583, Gelatroppo ,Eis
+584, Gelatwino ,Eis
+585, Sesokitz ,Normal Pflanze
+586, Kronjuwild ,Normal Pflanze
+587, Emolga ,Elektro Flug
+588, Laukaps ,Kaefer
+589, Cavalanzas ,Kaefer Stahl
+590, Tarnpignon ,Pflanze Gift
+591, Hutsassa ,Pflanze Gift
+592, Quabbel ,Wasser Geist
+593, Apoquallyp ,Wasser Geist
+594, Mamolida ,Wasser
+595, Wattzapf ,Kaefer Elektro
+596, Voltula ,Kaefer Elektro
+597, Kastadur ,Pflanze Stahl
+598, Tentantel ,Pflanze Stahl
+599, Klikk ,Stahl
+600, Kliklak ,Stahl
+601, Klikdiklak ,Stahl
+602, Zapplardin ,Elektro
+603, Zapplalek ,Elektro
+604, Zapplarang ,Elektro
+605, Pygraulon ,Psycho
+606, Megalon ,Psycho
+607, Lichtel ,Geist Feuer
+608, Laternecto ,Geist Feuer
+609, Skelabra ,Geist Feuer
+610, Milza ,Drache
+611, Sharfax ,Drache
+612, Maxax ,Drache
+613, Petznief ,Eis
+614, Siberio ,Eis
+615, Frigometri ,Eis
+616, Schnuthelm ,Kaefer
+617, Hydragil ,Kaefer
+618, Flunschlik ,Elektro Boden
+619, Lin-Fu ,Kampf
+620, Wie-Shu ,Kampf
+621, Shardrago ,Drache
+622, Golbit ,Boden Geist
+623, Golgantes ,Boden Geist
+624, Gladiantri ,Unlicht Stahl
+625, Caesurio ,Unlicht Stahl
+626, Bisofank ,Normal
+627, Geronimatz ,Normal Flug
+628, Washakwil ,Normal Flug
+629, Skallyk ,Unlicht Flug
+630, Grypheldis ,Unlicht Flug
+631, Furnifraß ,Feuer
+632, Fermicula ,Kaefer Stahl
+633, Kapuno ,Unlicht Drache
+634, Duodino ,Unlicht Drache
+635, Trikephalo ,Unlicht Drache
+636, Ignivor ,Kaefer Feuer
+637, Ramoth ,Kaefer Feuer
+638, Kobalium ,Stahl Kampf
+639, Terrakium ,Gestein Kampf
+640, Viridium ,Pflanze Kampf
+641, Boreos ,Flug
+642, Voltolos ,Elektro Flug
+643, Reshiram ,Drache Feuer
+644, Zekrom ,Drache Elektro
+645, Demeteros ,Boden Flug
+646, Kyurem ,Drache Eis
+647, Keldeo ,Wasser Kampf
+648, Meloetta ,Normal Psycho
+649, Genesect ,Kaefer Stahl
+650, Igamaro ,Pflanze
+651, Igastarnish ,Pflanze
+652, Brigaron ,Pflanze Kampf
+653, Fynx ,Feuer
+654, Rutena ,Feuer
+655, Fennexis ,Feuer Psycho
+656, Froxy ,Wasser
+657, Amphizel ,Wasser
+658, Quajutsu ,Wasser Unlicht
+659, Scoppel ,Normal
+660, Grebbit ,Normal Boden
+661, Dartiri ,Normal Flug
+662, Dartignis ,Feuer Flug
+663, Fiaro ,Feuer Flug
+664, Purmel ,Kaefer
+665, Puponcho ,Kaefer
+666, Vivillon ,Kaefer Flug
+667, Leufeo ,Feuer Normal
+668, Pyroleo ,Feuer Normal
+669, Flabébé ,Fee
+670, Floette ,Fee
+671, Florges ,Fee
+672, Mähikel ,Pflanze
+673, Chevrumm ,Pflanze
+674, Pam-Pam ,Kampf
+675, Pandagro ,Kampf Unlicht
+676, Coiffwaff ,Normal
+677, Psiau ,Psycho
+678, Psiaugon ,Psycho
+679, Gramokles ,Stahl Geist
+680, Duokles ,Stahl Geist
+681, Durengard ,Stahl Geist
+682, Parfi ,Fee
+683, Parfinesse ,Fee
+684, Flauschling ,Fee
+685, Sabbaione ,Fee
+686, Iscalar ,Unlicht Psycho
+687, Calamanero ,Unlicht Psycho
+688, Bithora ,Gestein Wasser
+689, Thanathora ,Gestein Wasser
+690, Algitt ,Gift Wasser
+691, Tandrak ,Gift Drache
+692, Scampisto ,Wasser
+693, Wummer ,Wasser
+694, Eguana ,Elektro Normal
+695, Elezard ,Elektro Normal
+696, Balgoras ,Gestein Drache
+697, Monargoras ,Gestein Drache
+698, Amarino ,Gestein Eis
+699, Amagarga ,Gestein Eis
+700, Feelinara ,Fee
+701, Resladero ,Kampf Flug
+702, Dedenne ,Elektro Fee
+703, Rocara ,Gestein Fee
+704, Viscora ,Drache
+705, Viscargot ,Drache
+706, Viscogon ,Drache
+707, Clavion ,Stahl Fee
+708, Paragoni ,Geist Pflanze
+709, Trombork ,Geist Pflanze
+710, Irrbis ,Geist Pflanze
+711, Pumpdjinn ,Geist Pflanze
+712, Arktip ,Eis
+713, Arktilas ,Eis
+714, eF-eM ,Flug Drache
+715, UHaFnir ,Flug Drache
+716, Xerneas ,Fee
+717, Yveltal ,Unlicht Flug
+718, Zygarde ,Drache Boden
+719, Diancie ,Gestein Fee
+720, Hoopa ,Psycho Geist
+721, Volcanion ,Feuer Wasser
+722, Bauz ,Pflanze Flug
+723, Arboretoss ,Pflanze Flug
+724, Silvarro ,Pflanze Geist
+725, Flamiau ,Feuer
+726, Miezunder ,Feuer
+727, Fuegro ,Feuer Unlicht
+728, Robball ,Wasser
+729, Marikeck ,Wasser
+730, Primarene ,Wasser Fee
+731, Peppeck ,Normal Flug
+732, Trompeck ,Normal Flug
+733, Tukanon ,Normal Flug
+734, Mangunior ,Normal
+735, Manguspektor ,Normal
+736, Mabula ,Kaefer
+737, Akkup ,Kaefer Elektro
+738, Donarion ,Kaefer Elektro
+739, Krabbox ,Kampf
+740, Krawell ,Kampf Eis
+741, Choreogel ,Flug Feuer
+742, Wommel ,Kaefer Fee
+743, Bandelby ,Kaefer Fee
+744, Wuffels ,Gestein
+745, Wolwerock ,Gestein
+746, Lusardin ,Wasser
+747, Garstella ,Gift Wasser
+748, Aggrostella ,Gift Wasser
+749, Pampuli ,Boden
+750, Pampross ,Boden
+751, Araqua ,Wasser Kaefer
+752, Aranestro ,Wasser Kaefer
+753, Imantis ,Pflanze
+754, Mantidea ,Pflanze
+755, Bubungus ,Pflanze Fee
+756, Lamellux ,Pflanze Fee
+757, Molunk ,Gift Feuer
+758, Amfira ,Gift Feuer
+759, Velursi ,Normal Kampf
+760, Kosturso ,Normal Kampf
+761, Frubberl ,Pflanze
+762, Frubaila ,Pflanze
+763, Fruyal ,Pflanze
+764, Curelei ,Fee
+765, Kommandutan ,Normal Psycho
+766, Quartermak ,Kampf
+767, Reißlaus ,Kaefer Wasser
+768, Tectass ,Kaefer Wasser
+769, Sankabuh ,Geist Boden
+770, Colossand ,Geist Boden
+771, Gufa ,Wasser
+772, Typ:Null ,Normal
+773, Amigento ,Normal
+774, Meteno ,Gestein Flug
+775, Koalelu ,Normal
+776, Tortunator ,Feuer Drache
+777, Togedemaru ,Elektro Stahl
+778, Mimigma ,Geist Fee
+779, Knirfish ,Wasser Psycho
+780, Sen-Long ,Normal Drache
+781, Moruda ,Geist Pflanze
+782, Miniras ,Drache
+783, Mediras ,Drache Kampf
+784, Grandiras ,Drache Kampf
+785, Kapu-Riki ,Elektro Fee
+786, Kapu-Fala ,Psycho Fee
+787, Kapu-Toro ,Pflanze Fee
+788, Kapu-Kime ,Wasser Fee
+789, Cosmog ,Psycho
+790, Cosmovum ,Psycho
+791, Solgaleo ,Psycho Stahl
+792, Lunala ,Psycho Geist
+793, Anego ,Gestein Gift
+794, Masskito ,Kaefer Kampf
+795, Schabelle ,Kaefer Kampf
+796, Voltriant ,Elektro
+797, Kaguron ,Stahl Flug
+798, Katagami ,Pflanze Stahl
+799, Schlingking ,Unlicht Drache
+800, Necrozma ,Psycho
+801, Magearna ,Stahl Fee
+802, Marshadow ,Kampf Geist
+803, Venicro ,Gift
+804, Agoyon ,Gift Drache
+805, Muramura ,Gestein Stahl
+806, Kopplosio ,Feuer Geist
+807, Zeraora ,Elektro
+808, Meltan ,Stahl
+809, Melmetal ,Stahl
+810, Chimpep ,Pflanze
+811, Chimstix ,Pflanze
+812, Gortrom ,Pflanze
+813, Hopplo ,Feuer
+814, Kickerlo ,Feuer
+815, Liberlo ,Feuer
+816, Memmeon ,Wasser
+817, Phlegleon ,Wasser
+818, Intelleon ,Wasser
+819, Raffel ,Normal
+820, Schlaraffel ,Normal
+821, Meikro ,Flug
+822, Kranoviz ,Flug
+823, Krarmor ,Flug Stahl
+824, Sensect ,Kaefer
+825, Keradar ,Kaefer Psycho
+826, Maritellit ,Kaefer Psycho
+827, Kleptifux ,Unlicht
+828, Gaunux ,Unlicht
+829, Cottini ,Pflanze
+830, Cottomi ,Pflanze
+831, Wolly ,Normal
+832, Zwollock ,Normal
+833, Kamehaps ,Wasser
+834, Kamalm ,Wasser Gestein
+835, Voldi ,Elektro
+836, Bellektro ,Elektro
+837, Klonkett ,Gestein
+838, Wagong ,Gestein Feuer
+839, Montecarbo ,Gestein Feuer
+840, Knapfel ,Pflanze Drache
+841, Drapfel ,Pflanze Drache
+842, Schlapfel ,Pflanze Drache
+843, Salanga ,Boden
+844, Sanaconda ,Boden
+845, Urgl ,Flug Wasser
+846, Pikuda ,Wasser
+847, Barrakiefa ,Wasser
+848, Toxel ,Elektro Gift
+849, Riffex ,Elektro Gift
+850, Thermopod ,Feuer Kaefer
+851, Infernopod ,Feuer Kaefer
+852, Klopptopus ,Kampf
+853, Kaocto ,Kampf
+854, Fatalitee ,Geist
+855, Mortipot ,Geist
+856, Brimova ,Psycho
+857, Brimano ,Psycho
+858, Silembrim ,Psycho Fee
+859, Bähmon ,Unlicht Fee
+860, Pelzebub ,Unlicht Fee
+861, Olangaar ,Unlicht Fee
+862, Barrikadax ,Unlicht Normal
+863, Mauzinger ,Stahl
+864, Gorgasonn ,Geist
+865, Lauchzelot ,Kampf
+866, Pantifrost ,Eis Psycho
+867, Oghnatoll ,Geist Boden
+868, Hokumil ,Fee
+869, Pokusan ,Fee
+870, Legios ,Kampf
+871, Britzigel ,Elektro
+872, Snomnom ,Eis Kaefer
+873, Mottineva ,Eis Kaefer
+874, Humanolith ,Gestein
+875, Kubuin ,Eis
+876, Servol ,Psycho Normal
+877, Morpeko ,Elektro Unlicht
+878, Kupfanti ,Stahl
+879, Patinaraja ,Stahl
+880, Lectragon ,Elektro Drache
+881, Lecryodon ,Elektro Eis
+882, Pescragon ,Wasser Drache
+883, Pescryodon ,Wasser Eis
+884, Duraludon ,Stahl Drache
+885, Grolldra ,Drache Geist
+886, Phandra ,Drache Geist
+887, Katapuldra ,Drache Geist
+888, Zacian ,Fee
+889, Zamazenta ,Kampf
+890, Endynalos ,Gift Drache
