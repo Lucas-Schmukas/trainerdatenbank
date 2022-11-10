@@ -7,6 +7,7 @@ use App\Models\Pokemon;
 use App\Models\Trainer;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class TrainerSeeder extends Seeder
 {
@@ -17,8 +18,9 @@ class TrainerSeeder extends Seeder
      */
     public function run()
     {
+        $numberOfTrainer = DB::table('trainer')->count();
          Trainer::factory()
-             ->count(997)
+             ->count(1000 - $numberOfTrainer)
              ->has(Pokemon::factory()->count(rand(1, 6)))
              ->create();
     }

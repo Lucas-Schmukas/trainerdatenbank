@@ -37,12 +37,35 @@ class Pokedex extends Model
     {
         $pokemon = Pokedex::where('id', $id)
             ->first();
+        if(str_contains($pokemon->name, ' ')) {
+            $pokemon->name = trim($pokemon->name);
+            $pokemon->save();
+        }
         if($pokemon->faehigkeit === null){
             $scrapper = new WebScrapper();
             $pokemon->faehigkeit = $scrapper->getSkillById($pokemon->id);
             $pokemon->save();
         }
         return $pokemon->faehigkeit;
+    }
+
+    static public function getSkillByName(String $name) : String
+    {
+        $pokemon = Pokedex::where('name','like', '%' . $name . '%')
+            ->first();
+            $pokemon->name = trim($name);
+            $pokemon->save();
+        if($pokemon->faehigkeit === null){
+            $scrapper = new WebScrapper();
+            $pokemon->faehigkeit = $scrapper->getSkillById($pokemon->id);
+            $pokemon->save();
+        }
+        return $pokemon->faehigkeit;
+    }
+
+    static public function getIdByName(String $name) : int
+    {
+        return Pokedex::where('name', $name)->id;
     }
 
     static public function getTypesBySpezies(String $spezies) : array
