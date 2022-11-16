@@ -7,6 +7,7 @@ use App\Services\WebScrapper;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
 use PhpParser\Node\Scalar\String_;
 
 /**
@@ -37,27 +38,17 @@ class Pokedex extends Model
     {
         $pokemon = Pokedex::where('id', $id)
             ->first();
-        if(str_contains($pokemon->name, ' ')) {
-            $pokemon->name = trim($pokemon->name);
-            $pokemon->save();
-        }
-        if($pokemon->faehigkeit === null){
-            $scrapper = new WebScrapper();
-            $pokemon->faehigkeit = $scrapper->getSkillById($pokemon->id);
-            $pokemon->save();
-        }
         return $pokemon->faehigkeit;
     }
 
     static public function getSkillByName(String $name) : String
     {
-        $pokemon = Pokedex::where('name','like', '%' . $name . '%')
+        $pokemon = DB::table('pokedex')
+            ->where('name', $name )
             ->first();
-            $pokemon->name = trim($name);
-            $pokemon->save();
         if($pokemon->faehigkeit === null){
             $scrapper = new WebScrapper();
-            $pokemon->faehigkeit = $scrapper->getSkillById($pokemon->id);
+            $pokemon->faehigkeit = $scrapper->getSkillById($pokemon->pokemonid);
             $pokemon->save();
         }
         return $pokemon->faehigkeit;
@@ -70,9 +61,12 @@ class Pokedex extends Model
 
     static public function getTypesBySpezies(String $spezies) : array
     {
-        $types = Pokedex::where('name', $spezies)
-            ->first()
-            ->typ;
+        $spezies = trim($spezies);
+        $pokemon = Pokedex::where('name','like', '%' . $spezies . '%')
+            ->first();
+        $pokemon->name = trim($spezies);
+        $pokemon->save();
+        $types = $pokemon->typ;
         return self::splitType($types);
     }
     private static function splitType(String $typ) : array
@@ -84,7 +78,7 @@ class Pokedex extends Model
     {
         $scrapper = new WebScrapper();
         foreach (Pokedex::all() as $pokemon) {
-            $pokemon->faehigkeit = $scrapper->getSkillById($pokemon->id);
+            $pokemon->faehigkeit = $scrapper->getSkillById($pokemon->pokemonid);
             $pokemon->save();
         }
     }

@@ -17,8 +17,8 @@ class WettkampfFactory extends Factory
     public function definition()
     {
         return [
-            'trainer_sieger' => fake()->numberBetween(1, 1000),
-            'trainer_verlierer' => fake()->numberBetween(1, 1000),
+            'trainerid_sieger' => fake()->numberBetween(1, 1000),
+            'trainerid_verlierer' => fake()->numberBetween(1, 1000),
             'region' =>fake()->city(),
             'preisgeld' =>fake()->numberBetween(50, 1500)
 

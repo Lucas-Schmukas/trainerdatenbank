@@ -9,6 +9,10 @@ class Pokemon extends Model
 {
     use HasFactory;
 
+    protected $primaryKey = 'pokemonid';
+
+    protected $fillable = ['spezies'];
+
     protected $table = 'pokemon';
 
     public $timestamps = false;

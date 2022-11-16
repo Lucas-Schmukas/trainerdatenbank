@@ -5,7 +5,6 @@ namespace Database\Seeders;
 use App\Models\Pokedex;
 use App\Models\Pokemon;
 use App\Models\Trainer;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Eloquent\Factories\Sequence;
 use Illuminate\Database\Seeder;
 
@@ -23,35 +22,35 @@ class SingleTrainerSeeder extends Seeder
                 ->count(6)
                 ->state(new Sequence(
                     [
-                        'spezies' => $name = 'Mimigma',
+                        'spezies' => $name = 'Impoleon',
                         'faehigkeit' => Pokedex::getSkillByName($name)
                         ],
                     [
-                        'spezies' => $name = 'Sleimok',
+                        'spezies' => $name = 'Kramshef',
                         'faehigkeit' => Pokedex::getSkillByName($name)
                     ],
                     [
-                        'spezies' => $name = 'Cerapendra',
+                        'spezies' => $name = 'Stolloss',
                         'faehigkeit' => Pokedex::getSkillByName($name)
                     ],
                     [
-                        'spezies' => $name = 'Zytomega',
+                        'spezies' => $name = 'Gewaldro',
                         'faehigkeit' => Pokedex::getSkillByName($name),
                         'geschlecht' => 'm'
                     ],
                     [
-                        'spezies' => $name = 'Aggrostella',
+                        'spezies' => $name = 'Luxtra',
                         'faehigkeit' => Pokedex::getSkillByName($name)
                     ],
                     [
-                        'spezies' => $name = 'Meteno',
+                        'spezies' => $name = 'Knakrack',
                         'faehigkeit' => Pokedex::getSkillByName($name)
                     ],
                 )) )
             ->create(
                 [
-                    'name' => 'Team Rocket Lucas ',
-                    'geburtsdatum' => '',
+                    'name' => 'Reik',
+                    'geburtsdatum' => '1999-08-29',
                     'istArenaleiter' => 0
                 ]
             );

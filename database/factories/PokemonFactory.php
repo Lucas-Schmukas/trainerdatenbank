@@ -41,7 +41,7 @@ class PokemonFactory extends Factory
             foreach($types as $type){
                 $typeId = Typ::getTypeIdByDescription($type);
                 DB::table('gehoertAn')->insert([
-                    'pokemonid' => $pokemon->id,
+                    'pokemonid' => $pokemon->pokemonid,
                     'typid' => $typeId,
             ]);
             }

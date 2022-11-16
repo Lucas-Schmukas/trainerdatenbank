@@ -20,7 +20,7 @@ class TrainerSeeder extends Seeder
     {
         $numberOfTrainer = DB::table('trainer')->count();
          Trainer::factory()
-             ->count(1000 - $numberOfTrainer)
+             ->count(10000 - $numberOfTrainer)
              ->has(Pokemon::factory()->count(rand(1, 6)))
              ->create();
     }
