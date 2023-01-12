@@ -16,7 +16,7 @@ class WettkampfSeeder extends Seeder
     public function run()
     {
         Wettkampf::factory()
-            ->count(50000)
+            ->count(20000)
             ->create();
     }
 }

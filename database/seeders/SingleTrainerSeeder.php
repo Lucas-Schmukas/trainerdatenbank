@@ -17,43 +17,49 @@ class SingleTrainerSeeder extends Seeder
      */
     public function run()
     {
+
         Trainer::factory()
             ->has(Pokemon::factory()
                 ->count(6)
                 ->state(new Sequence(
                     [
-                        'spezies' => $name = 'Impoleon',
-                        'faehigkeit' => Pokedex::getSkillByName($name)
+                        'spezies' => $name = 'Gengar',
+                        'faehigkeit' => Pokedex::getSkillByName($name),
+                        'pokeball' => 'Luxusball'
                         ],
                     [
-                        'spezies' => $name = 'Kramshef',
-                        'faehigkeit' => Pokedex::getSkillByName($name)
-                    ],
-                    [
-                        'spezies' => $name = 'Stolloss',
-                        'faehigkeit' => Pokedex::getSkillByName($name)
-                    ],
-                    [
-                        'spezies' => $name = 'Gewaldro',
+                        'spezies' => $name = 'Blitza',
                         'faehigkeit' => Pokedex::getSkillByName($name),
+                        'pokeball' => 'Timerball'
+                    ],
+                    [
+                        'spezies' => $name = 'Turtok',
+                        'faehigkeit' => Pokedex::getSkillByName($name),
+                        'pokeball' => 'Jubelball'
+                    ],
+                    [
+                        'spezies' => $name = 'Machomei',
+                        'faehigkeit' => Pokedex::getSkillByName($name),
+                        'pokeball' => 'Hyperball'
+                    ],
+                    [
+                        'spezies' => $name = 'Dodri',
+                        'faehigkeit' => Pokedex::getSkillByName($name),
+                        'pokeball' => 'Pokeball'
+                    ],
+                    [
+                        'spezies' => $name = 'Nidoking',
+                        'faehigkeit' => Pokedex::getSkillByName($name),
+                        'pokeball' => 'Meisterball',
                         'geschlecht' => 'm'
-                    ],
-                    [
-                        'spezies' => $name = 'Luxtra',
-                        'faehigkeit' => Pokedex::getSkillByName($name)
-                    ],
-                    [
-                        'spezies' => $name = 'Knakrack',
-                        'faehigkeit' => Pokedex::getSkillByName($name)
                     ],
                 )) )
             ->create(
                 [
-                    'name' => 'Reik',
-                    'geburtsdatum' => '1999-08-29',
-                    'istArenaleiter' => 0
+                    'name' => 'Dieb Leon',
+                    'geburtsdatum' => '2002-09-28',
+                    'istArenaleiter' => 0,
                 ]
             );
-
     }
 }

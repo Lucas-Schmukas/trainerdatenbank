@@ -26,7 +26,7 @@ class PokemonFactory extends Factory
         return [
             'spitzname' => fake()->jobTitle(),
             'geschlecht' => fake()->randomElement(['m', 'w']),
-            'spezies' => Pokedex::getNameById( $pokeId = fake()->numberBetween(1, 151)),
+            'spezies' => Pokedex::getNameById( $pokeId = fake()->numberBetween(1, 850)),
             'faehigkeit' => Pokedex::getSkillById($pokeId),
             'pokeball' => fake()->randomElement(config('pokeball')),
             'gewicht' => $gewicht = fake()->numberBetween(50, 500), // in kg

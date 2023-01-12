@@ -19,8 +19,8 @@ class TrainerFactory extends Factory
     {
         return [
             'name' => fake()->name(),
-            'geburtsdatum' => fake()->dateTimeBetween('-60 years', '-14 years')->format('Y-m-d'),
-            'region' => fake()->city(),
+            'geburtsdatum' => fake()->dateTimeBetween('-80 years', '-14 years')->format('Y-m-d'),
+            'region' => fake()->randomElement(['Kanto', 'Johto', 'Hoenn', 'Sinnoh', 'Einall', 'Kalos', 'Alola', 'Galar', 'Hisui']),
             'geld' => fake()->randomNumber(6, false),
             'istArenaleiter' => $this->setArenaleiterbyChance(fake()->randomNumber(3, false)), //change of being Arenaleiter is 1%
         ];

@@ -54,11 +54,6 @@ class Pokedex extends Model
         return $pokemon->faehigkeit;
     }
 
-    static public function getIdByName(String $name) : int
-    {
-        return Pokedex::where('name', $name)->id;
-    }
-
     static public function getTypesBySpezies(String $spezies) : array
     {
         $spezies = trim($spezies);
